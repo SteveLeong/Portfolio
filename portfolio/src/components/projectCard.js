@@ -1,8 +1,19 @@
 import React, { Component } from "react";
 
-import { Card, Modal } from "antd";
+import { Card, Modal, Row, Col } from "antd";
 import "antd/dist/antd.css";
+import "../styles/projectCard.css";
+// import "../App.css";
 const { Meta } = Card;
+
+const modalStyle = {
+  height: "75vh",
+  padding: "0"
+};
+
+const DemoBox = props => (
+  <p className={`height-${props.value}`}>{props.children}</p>
+);
 
 class ProjectCard extends Component {
   state = { visible: false };
@@ -60,10 +71,21 @@ class ProjectCard extends Component {
           visible={this.state.visible}
           footer={null}
           onCancel={this.handleCancel}
+          width="75%"
+          style={{ borderRadius: "40px" }}
+          bodyStyle={modalStyle}
+          className="modal"
         >
-          <p>Some contents...</p>
-          <p>Some contents...</p>
-          <p>Some contents...</p>
+          <div className="container">
+            <Row className="row">
+              <Col span={18} className="col" id="imageSpace">
+                blah
+              </Col>
+              <Col span={6} className="col" id="infoSpace">
+                col-6 col-pull-18
+              </Col>
+            </Row>
+          </div>
         </Modal>
       </div>
     );

@@ -1,0 +1,25 @@
+.container {
+  height: 100%;
+}
+
+.row {
+  height: 100%;
+}
+
+.col {
+  height: 100%;
+}
+
+#imageSpace {
+  background: #dce1de;
+}
+
+#infoSpace {
+}
+
+.modal .ant-modal-header {
+  background: #dce1de;
+  border-bottom: none;
+  width: 75%;
+  text-align: center;
+}

@@ -27,6 +27,9 @@ class Modal extends Component {
   render() {
     return (
       <div>
+        {/* <Button type="primary" onClick={this.showModal}>
+          Open Modal with customized button props
+        </Button> */}
         <Modal
           title="Basic Modal"
           visible={this.state.visible}
