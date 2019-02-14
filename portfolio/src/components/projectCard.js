@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { Card, Modal, Row, Col } from "antd";
+import { Card, Modal, Row, Col, Carousel, Button } from "antd";
 import "antd/dist/antd.css";
 import "../styles/projectCard.css";
 // import "../App.css";
@@ -39,6 +39,7 @@ class ProjectCard extends Component {
   };
 
   render() {
+    const { imageTitle } = this.props;
     return (
       <div>
         <Card
@@ -58,7 +59,9 @@ class ProjectCard extends Component {
             cover={
               <img
                 alt="example"
-                src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+                src={
+                  "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+                }
               />
             }
           >
@@ -66,23 +69,62 @@ class ProjectCard extends Component {
           </Card>
         </Card>
         <Modal
-          title="Basic Modal"
           centered
           visible={this.state.visible}
           footer={null}
           onCancel={this.handleCancel}
-          width="75%"
+          width="65%"
           style={{ borderRadius: "40px" }}
           bodyStyle={modalStyle}
           className="modal"
         >
           <div className="container">
             <Row className="row">
-              <Col span={18} className="col" id="imageSpace">
-                blah
+              <Col span={16} className="col" id="imageSpace">
+                {/* Carousel */}
+                <Carousel>
+                  <div>
+                    <img src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />{" "}
+                  </div>
+                  <div>
+                    <img
+                      src={require("../assets/resources/" +
+                        imageTitle +
+                        ".jpg")}
+                      alt="blah"
+                    />
+                  </div>
+                  <div>
+                    <h3>3</h3>
+                  </div>
+                  <div>
+                    <h3>4</h3>
+                  </div>
+                </Carousel>
               </Col>
-              <Col span={6} className="col" id="infoSpace">
-                col-6 col-pull-18
+              <Col span={8} className="col" id="infoSpace">
+                {/* Title, Description, Technologies */}
+                <div className="projectInfo">
+                  <h2>Title</h2>
+                  <p>Test</p>
+                  <h2>Description</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Mauris auctor imperdiet tincidunt. Nullam nec nulla tortor.{" "}
+                  </p>
+                  <h2>Technologies</h2>
+
+                  <div className="text-center">
+                    <Button
+                      size="large"
+                      className="btn"
+                      href="https://github.com/SteveLeong"
+                      target="_blank"
+                    >
+                      Github
+                    </Button>
+                  </div>
+                </div>
               </Col>
             </Row>
           </div>

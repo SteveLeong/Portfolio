@@ -15,11 +15,55 @@
 }
 
 #infoSpace {
+  padding: 10px;
+  padding-top: 10%;
+}
+
+.projectInfo h2 {
+  color: black;
+}
+
+.projectInfo p {
+  color: rgba(0, 0, 0, 0.95);
 }
 
 .modal .ant-modal-header {
   background: #dce1de;
   border-bottom: none;
-  width: 75%;
+  width: 66.66666%;
   text-align: center;
+  padding: 0;
+}
+
+.ant-carousel {
+  height: 100%;
+  margin: inherit;
+}
+
+.ant-carousel div,
+.ant-carousel img,
+.ant-carousel .slick-slider,
+.ant-carousel .slick-list,
+.ant-carousel .slick-track {
+  height: 100%;
+}
+
+.ant-carousel img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: scale-down;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  /* text-align: center; */
+  width: 90%;
+  margin: auto;
 }

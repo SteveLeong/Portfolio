@@ -8,22 +8,19 @@ class Sidebar extends Component {
       <div>
         <ul className="sidebar">
           <a href="#t1">
-            <li className="icon" id="uno">
+            <li className="symbol" id="uno">
               <Icon type="home" />
             </li>
           </a>
           <a href="#t2">
-            <li className="icon" id="dos">
+            <li className="symbol" id="dos">
               <Icon type="idcard" />
             </li>
           </a>
           <a href="#t3">
-            <li className="icon" id="tres">
+            <li className="symbol" id="tres">
               <Icon type="folder" />
             </li>
-          </a>
-          <a href="#t4">
-            <li className="icon fa fa-dribbble" id="cuatro" />
           </a>
         </ul>
       </div>
