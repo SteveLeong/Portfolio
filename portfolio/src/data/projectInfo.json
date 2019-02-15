@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "LeafBank",
+      "desc": "An iOS Application designed for logging and surveying medical marijuana usage among U.S. Veterans to aid in the research of cannabis",
+      "technologies": "Swift, Xcode, Firebase, Sketch",
+      "github": "",
+      "images": ["LeafBank1", "LeafBank2", "LeafBank3", "LeafBank4"],
+      "demo": ""
+    },
+    {
+      "id": 2,
+      "title": "Critix",
+      "desc": "A Web Application that allows photographers and digital illustrators to share and critic works of other content creators",
+      "technologies": "EJS, HTML5, CSS, MongoDB",
+      "github": "https://github.com/joshquines/Critix",
+      "images": ["mid-image"],
+      "demo": ""
+    },
+    {
+      "id": 3,
+      "title": "Library Kiosk Application",
+      "desc": "A Windows Application to replace the current outdated systems many libraries use today.",
+      "technologies": "XAML, Visual Studio",
+      "github": "https://github.com/jglem/HCILibrary",
+      "images": ["mid-image"],
+      "demo": ""
+    },
+    {
+      "id": 4,
+      "title": "Import Car Database",
+      "desc": "A database designed and implemented from scratch",
+      "technologies": "MySQL, PHP, Javascript, CSS, HTML",
+      "github": "https://github.com/SteveLeong/ImportCarsDB",
+      "images": ["ImportCar1", "ImportCar2", "ImportCar3"],
+      "demo": ""
+    }
+  ]
+}

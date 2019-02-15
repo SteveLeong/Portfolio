@@ -1,12 +1,26 @@
 import React, { Component } from "react";
 
-import { Card, Row, Col } from "antd";
+import { Row, Col } from "antd";
 import Sidebar from "./components/sidebar";
 import ProjectCard from "./components/projectCard";
 
 import "./App.css";
 import "./assets/css/main.css";
+
+const test = require("./data/projectInfo.json");
+console.log(test.projects[0]);
+
 class App extends Component {
+  showProjects = props => {
+    return props.projects.map(project => {
+      console.log(project);
+      return (
+        <Col span={8}>
+          <ProjectCard projectInfo={project} />
+        </Col>
+      );
+    });
+  };
   render() {
     return (
       <div className="ct" id="t1">
@@ -34,6 +48,7 @@ class App extends Component {
                         <a
                           href="https://github.com/SteveLeong"
                           target="_blank"
+                          rel="noopener noreferrer"
                           className="icon style2 fa-github"
                         >
                           <span className="label">Github</span>
@@ -43,6 +58,7 @@ class App extends Component {
                         <a
                           href="https://www.linkedin.com/in/steven-leong-348600154/"
                           target="_blank"
+                          rel="noopener noreferrer"
                           className="icon style2 fa-linkedin"
                         >
                           <span className="label">LinkedIn</span>
@@ -72,26 +88,7 @@ class App extends Component {
                 <div className="page" id="p3">
                   <span className="headTitle">Projects</span>
                   <div className="content">
-                    <Row gutter={16}>
-                      <Col span={8}>
-                        <ProjectCard imageTitle="mid-image" />
-                      </Col>
-                      {/* <Col span={8}>
-                        <ProjectCard />
-                      </Col>
-                      <Col span={8}>
-                        <ProjectCard />
-                      </Col>
-                      <Col span={8}>
-                        <ProjectCard />
-                      </Col>
-                      <Col span={8}>
-                        <ProjectCard />
-                      </Col>
-                      <Col span={8}>
-                        <ProjectCard />
-                      </Col> */}
-                    </Row>
+                    <Row gutter={16}>{this.showProjects(test)}</Row>
                   </div>
                 </div>
                 <div className="page" id="p4">

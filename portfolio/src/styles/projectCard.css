@@ -25,6 +25,7 @@
 
 .projectInfo p {
   color: rgba(0, 0, 0, 0.95);
+  margin: 0;
 }
 
 .modal .ant-modal-header {
@@ -56,6 +57,15 @@
   margin: auto;
   padding-bottom: 5%;
   padding-top: 5%;
+}
+
+.ant-card-cover {
+  height: 40vh;
+}
+
+.ant-card-cover img {
+  object-fit: cover;
+  height: 100%;
 }
 
 .text-center {

@@ -11,10 +11,6 @@ const modalStyle = {
   padding: "0"
 };
 
-const DemoBox = props => (
-  <p className={`height-${props.value}`}>{props.children}</p>
-);
-
 class ProjectCard extends Component {
   state = { visible: false };
 
@@ -24,13 +20,6 @@ class ProjectCard extends Component {
     });
   };
 
-  //   handleOk = e => {
-  //     console.log(e);
-  //     this.setState({
-  //       visible: false
-  //     });
-  //   };
-
   handleCancel = e => {
     console.log(e);
     this.setState({
@@ -38,8 +27,21 @@ class ProjectCard extends Component {
     });
   };
 
+  displayImages = props => {
+    return props.map(image => {
+      return (
+        <div>
+          <img
+            src={require("../images/projectImages/" + image + ".jpg")}
+            alt="blah"
+          />
+        </div>
+      );
+    });
+  };
+
   render() {
-    const { imageTitle } = this.props;
+    const { projectInfo } = this.props;
     return (
       <div>
         <Card
@@ -59,13 +61,13 @@ class ProjectCard extends Component {
             cover={
               <img
                 alt="example"
-                src={
-                  "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
-                }
+                src={require("../images/projectImages/" +
+                  projectInfo.images[0] +
+                  ".jpg")}
               />
             }
           >
-            <Meta title="Europe Street beat" description="www.instagram.com" />
+            <Meta title={projectInfo.title} description="www.instagram.com" />
           </Card>
         </Card>
         <Modal
@@ -82,43 +84,22 @@ class ProjectCard extends Component {
             <Row className="row">
               <Col span={16} className="col" id="imageSpace">
                 {/* Carousel */}
-                <Carousel>
-                  <div>
-                    <img src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />{" "}
-                  </div>
-                  <div>
-                    <img
-                      src={require("../assets/resources/" +
-                        imageTitle +
-                        ".jpg")}
-                      alt="blah"
-                    />
-                  </div>
-                  <div>
-                    <h3>3</h3>
-                  </div>
-                  <div>
-                    <h3>4</h3>
-                  </div>
-                </Carousel>
+                <Carousel>{this.displayImages(projectInfo.images)}</Carousel>
               </Col>
               <Col span={8} className="col" id="infoSpace">
                 {/* Title, Description, Technologies */}
                 <div className="projectInfo">
-                  <h2>Title</h2>
-                  <p>Test</p>
-                  <h2>Description</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Mauris auctor imperdiet tincidunt. Nullam nec nulla tortor.{" "}
-                  </p>
-                  <h2>Technologies</h2>
-
+                  <p>Title</p>
+                  <h2>{projectInfo.title}</h2>
+                  <p>Description</p>
+                  <h2>{projectInfo.desc}</h2>
+                  <p>Technologies</p>
+                  <h2>{projectInfo.technologies}</h2>
                   <div className="text-center">
                     <Button
                       size="large"
                       className="btn"
-                      href="https://github.com/SteveLeong"
+                      href={projectInfo.github}
                       target="_blank"
                     >
                       Github
