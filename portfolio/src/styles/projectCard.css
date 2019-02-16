@@ -19,13 +19,15 @@
   padding-top: 10%;
 }
 
-.projectInfo h2 {
+.projectInfo h2,
+.projectInfo h3 {
   color: black;
+  margin: 0;
 }
 
 .projectInfo p {
+  font-weight: bold;
   color: rgba(0, 0, 0, 0.95);
-  margin: 0;
 }
 
 .modal .ant-modal-header {
@@ -50,7 +52,7 @@
 }
 
 .ant-carousel img {
-  max-width: 100%;
+  max-width: 90%;
   max-height: 100%;
   object-fit: scale-down;
   text-align: center;
@@ -60,12 +62,16 @@
 }
 
 .ant-card-cover {
-  height: 40vh;
+  height: 30vh;
 }
 
 .ant-card-cover img {
   object-fit: cover;
   height: 100%;
+}
+
+.ant-card-meta-description {
+  color: rgba(0, 0, 0, 0.65);
 }
 
 .text-center {
@@ -76,4 +82,22 @@
   /* text-align: center; */
   width: 90%;
   margin: auto;
+}
+
+.carouselContainer {
+  height: 100%;
+}
+
+.rightIcon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.leftIcon {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  color: rgba(0, 0, 0, 0.25);
 }

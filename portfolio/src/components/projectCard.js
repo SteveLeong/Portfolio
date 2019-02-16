@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { Card, Modal, Row, Col, Carousel, Button } from "antd";
+import { Card, Modal, Row, Col, Carousel, Button, Icon } from "antd";
 import "antd/dist/antd.css";
 import "../styles/projectCard.css";
 // import "../App.css";
@@ -13,6 +13,18 @@ const modalStyle = {
 
 class ProjectCard extends Component {
   state = { visible: false };
+
+  constructor(props) {
+    super(props);
+    this.carousel = React.createRef();
+  }
+
+  next = () => {
+    this.carousel.next();
+  };
+  previous = () => {
+    this.carousel.prev();
+  };
 
   showModal = () => {
     this.setState({
@@ -30,7 +42,7 @@ class ProjectCard extends Component {
   displayImages = props => {
     return props.map(image => {
       return (
-        <div>
+        <div key="image">
           <img
             src={require("../images/projectImages/" + image + ".jpg")}
             alt="blah"
@@ -67,7 +79,10 @@ class ProjectCard extends Component {
               />
             }
           >
-            <Meta title={projectInfo.title} description="www.instagram.com" />
+            <Meta
+              title={projectInfo.title}
+              description={projectInfo.shortdesc}
+            />
           </Card>
         </Card>
         <Modal
@@ -83,18 +98,33 @@ class ProjectCard extends Component {
           <div className="container">
             <Row className="row">
               <Col span={16} className="col" id="imageSpace">
-                {/* Carousel */}
-                <Carousel>{this.displayImages(projectInfo.images)}</Carousel>
+                <div className="carouselContainer">
+                  <Icon
+                    type="left"
+                    onClick={this.previous}
+                    className="leftIcon"
+                    style={{ fontSize: "1.5em" }}
+                  />
+                  <Carousel ref={node => (this.carousel = node)}>
+                    {this.displayImages(projectInfo.images)}
+                  </Carousel>
+                  <Icon
+                    type="right"
+                    onClick={this.next}
+                    className="rightIcon"
+                    style={{ fontSize: "1.5em" }}
+                  />
+                </div>
               </Col>
               <Col span={8} className="col" id="infoSpace">
                 {/* Title, Description, Technologies */}
                 <div className="projectInfo">
-                  <p>Title</p>
-                  <h2>{projectInfo.title}</h2>
-                  <p>Description</p>
-                  <h2>{projectInfo.desc}</h2>
-                  <p>Technologies</p>
-                  <h2>{projectInfo.technologies}</h2>
+                  <h3>Title</h3>
+                  <p>{projectInfo.title}</p>
+                  <h3>Description</h3>
+                  <p>{projectInfo.shortdesc}</p>
+                  <h3>Technologies</h3>
+                  <p>{projectInfo.technologies}</p>
                   <div className="text-center">
                     <Button
                       size="large"
