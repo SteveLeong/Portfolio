@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e3e63080545cf4c991b8f65d27ced463",
-    "url": "/Portfolio/static/media/Library2.e3e63080.jpg"
+    "revision": "925058dc53125857326886c634a7f849",
+    "url": "/Portfolio/static/media/Library1.925058dc.jpg"
   },
   {
-    "revision": "7ab9e15fea6235fc4ff3",
-    "url": "/Portfolio/static/css/main.11ab633c.chunk.css"
+    "revision": "e353c795e054d26f9de1",
+    "url": "/Portfolio/static/css/main.a5c89b08.chunk.css"
   },
   {
     "revision": "591eb5beb99e69ed8d3e",
@@ -18,6 +18,14 @@ self.__precacheManifest = [
   {
     "revision": "152131b489e3573a8518",
     "url": "/Portfolio/static/js/2.152131b4.chunk.js"
+  },
+  {
+    "revision": "b98ce6a1cad33a4720d9af3c2ab0caff",
+    "url": "/Portfolio/static/media/minimal2.b98ce6a1.jpg"
+  },
+  {
+    "revision": "2f071c1b7f4f04decff8b480f93461ce",
+    "url": "/Portfolio/static/media/projectBG3.2f071c1b.jpg"
   },
   {
     "revision": "32b324d51533841b53b1d67023d654ea",
@@ -68,12 +76,12 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/LeafBank4.38659d1d.jpg"
   },
   {
-    "revision": "925058dc53125857326886c634a7f849",
-    "url": "/Portfolio/static/media/Library1.925058dc.jpg"
+    "revision": "e353c795e054d26f9de1",
+    "url": "/Portfolio/static/js/main.e353c795.chunk.js"
   },
   {
-    "revision": "7ab9e15fea6235fc4ff3",
-    "url": "/Portfolio/static/js/main.7ab9e15f.chunk.js"
+    "revision": "e3e63080545cf4c991b8f65d27ced463",
+    "url": "/Portfolio/static/media/Library2.e3e63080.jpg"
   },
   {
     "revision": "933017049fdbbeb34aee36240af67474",
@@ -124,12 +132,12 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/fontawesome-webfont.db812d8a.woff2"
   },
   {
-    "revision": "a35720c2fed2c7f043bc7e4ffb45e073",
-    "url": "/Portfolio/static/media/fontawesome-webfont.a35720c2.woff"
-  },
-  {
     "revision": "32400f4e08932a94d8bfd2422702c446",
     "url": "/Portfolio/static/media/fontawesome-webfont.32400f4e.eot"
+  },
+  {
+    "revision": "a35720c2fed2c7f043bc7e4ffb45e073",
+    "url": "/Portfolio/static/media/fontawesome-webfont.a35720c2.woff"
   },
   {
     "revision": "f775f9cca88e21d45bebe185b27c0e5b",
@@ -144,7 +152,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/css/2.4be36f89.chunk.css"
   },
   {
-    "revision": "e195c0ada88cf173d54c582fcf2918a3",
+    "revision": "daba7c646d0c1c5bdc8f3f4f2d59a53d",
     "url": "/Portfolio/index.html"
   }
 ];
