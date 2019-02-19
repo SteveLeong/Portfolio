@@ -8,9 +8,10 @@ import "./App.css";
 import "./assets/css/main.css";
 
 const test = require("./data/projectInfo.json");
-console.log(test.projects[0]);
 
 class App extends Component {
+  state = { numPages: null, pageNumber: 1 };
+
   showProjects = props => {
     return props.projects.map(project => {
       // console.log(project);
@@ -21,6 +22,7 @@ class App extends Component {
       );
     });
   };
+
   render() {
     return (
       <div className="ct" id="t1">
@@ -77,12 +79,13 @@ class App extends Component {
                   </div>
                 </div>
                 <div className="page" id="p2">
-                  <div className="resume">
-                    {/* <Icon type="idcard" /> */}
-                    {/* <span className="title">About Me</span>
+                  <div className="resume" />
+                  {/* <Icon type="idcard" /> */}
+                  <div className="symbol">
+                    <span className="title">Under Construction!</span>
                     <span className="hint">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    </span> */}
+                      Sorry, I'm making improvments to this page!
+                    </span>
                   </div>
                 </div>
                 <div className="page" id="p3">

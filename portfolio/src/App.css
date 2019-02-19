@@ -34,7 +34,7 @@ section {
 
 #p2 {
   left: 100%;
-  background: #ffffff;
+  /* background: #915757; */
   /* background: #357266; */
 }
 
@@ -99,7 +99,7 @@ section {
 #t3:target .sidebar .symbol,
 #t4:target .sidebar .symbol {
   transform: scale(0.6);
-  transition-delay: 0.1s;
+  transition-delay: 0.2s;
 }
 
 #t2:target #dos {
@@ -143,11 +143,12 @@ a {
 }
 
 .title {
-  font-size: 38px;
+  font-size: 5vh;
+  font-weight: bold;
 }
 
 .hint {
-  font-size: 13px;
+  font-size: 2vh;
 }
 
 .hint a {
@@ -172,6 +173,8 @@ a {
   font-size: 80px;
   transform: translateX(360%);
   line-height: 1.3;
+  transition: all 1s cubic-bezier(0.5, -0.005, 0.2, 1) !important;
+  -webkit-transition: all 1s cubic-bezier(0.5, -0.005, 0.2, 1) !important;
 }
 
 .page .content {
@@ -187,6 +190,8 @@ a {
   font-size: 80px;
   transform: translateX(360%);
   line-height: 1.3;
+  transition: all 1s cubic-bezier(0.5, -0.005, 0.2, 1) !important;
+  -webkit-transition: all 1s cubic-bezier(0.5, -0.005, 0.2, 1) !important;
 }
 
 .page .resume {
@@ -200,6 +205,14 @@ a {
   font-size: 80px;
   transform: translateX(360%);
   line-height: 1.3;
+  border: none;
+  background-image: url("./images/minimal2.jpg");
+  background-size: cover;
+  background-position: top center;
+  -webkit-filter: blur(8px);
+  filter: blur(8px);
+  transition: all 1s cubic-bezier(0.5, -0.005, 0.2, 1) !important;
+  -webkit-transition: all 1s cubic-bezier(0.5, -0.005, 0.2, 1) !important;
 }
 
 #t2:target .page#p2 .resume {
