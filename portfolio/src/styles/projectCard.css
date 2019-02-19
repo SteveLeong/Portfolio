@@ -74,10 +74,6 @@
   height: 100%;
 }
 
-.ant-card-meta-description {
-  color: rgba(0, 0, 0, 0.85);
-}
-
 .text-center {
   text-align: center;
 }
@@ -113,12 +109,16 @@
 }
 
 .ant-card-body {
-  font-size: 1.1vw;
 }
 
 .ant-card-meta-title {
   font-size: 1.5vw;
   color: rgba(0, 0, 0);
+}
+
+.ant-card-meta-description {
+  font-size: 1.1vw;
+  color: rgba(0, 0, 0, 0.85);
 }
 
 a.ant-btn {

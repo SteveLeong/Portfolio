@@ -1,6 +1,6 @@
 /* @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css); */
-/* @import url(./assets/css/font-awesome.min.css); */
-/* @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:200"); */
+@import url(./assets/css/font-awesome.min.css);
+@import "//fonts.googleapis.com/css?family=Source+Sans+Pro:200";
 
 html,
 body,
@@ -144,7 +144,6 @@ a {
 
 .title {
   font-size: 5vh;
-  font-weight: bold;
 }
 
 .hint {
