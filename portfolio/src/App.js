@@ -13,7 +13,7 @@ console.log(test.projects[0]);
 class App extends Component {
   showProjects = props => {
     return props.projects.map(project => {
-      console.log(project);
+      // console.log(project);
       return (
         <Col span={8}>
           <ProjectCard projectInfo={project} />
@@ -56,7 +56,7 @@ class App extends Component {
                       </li>
                       <li>
                         <a
-                          href="https://www.linkedin.com/in/steven-leong-348600154/"
+                          href="www.linkedin.com/in/steven-leong"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="icon style2 fa-linkedin"
@@ -67,7 +67,7 @@ class App extends Component {
                       <li>
                         <a
                           href="mailto:steveleong8@gmail.com"
-                          email
+                          email="true"
                           className="icon style2 fa-envelope-o"
                         >
                           <span className="label">Email</span>
@@ -77,26 +77,26 @@ class App extends Component {
                   </div>
                 </div>
                 <div className="page" id="p2">
-                  <div className="symbol">
+                  <div className="resume">
                     {/* <Icon type="idcard" /> */}
-                    <span className="title">About Me</span>
+                    {/* <span className="title">About Me</span>
                     <span className="hint">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    </span>
+                    </span> */}
                   </div>
                 </div>
                 <div className="page" id="p3">
-                  <span className="headTitle">Projects</span>
+                  <span className="headTitle">My Projects</span>
                   <div className="content">
                     <Row gutter={16}>{this.showProjects(test)}</Row>
                   </div>
                 </div>
-                <div className="page" id="p4">
+                {/* <div className="page" id="p4">
                   <div className="symbol fa fa-dribbble">
                     <span className="title">Dribbble</span>
                     <span className="hint" />
                   </div>
-                </div>
+                </div> */}
                 <p className="credit" />
               </section>
             </div>

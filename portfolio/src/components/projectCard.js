@@ -68,6 +68,7 @@ class ProjectCard extends Component {
           onClick={this.showModal}
         >
           <Card
+            className="innerCard"
             hoverable
             bordered={false}
             cover={
@@ -120,7 +121,7 @@ class ProjectCard extends Component {
                 {/* Title, Description, Technologies */}
                 <div className="projectInfo">
                   <h3>Title</h3>
-                  <p>{projectInfo.title}</p>
+                  <p style={{ fontSize: "20px" }}>{projectInfo.title}</p>
                   <h3>Description</h3>
                   <p>{projectInfo.shortdesc}</p>
                   <h3>Technologies</h3>

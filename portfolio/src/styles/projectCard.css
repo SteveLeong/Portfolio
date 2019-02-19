@@ -11,12 +11,16 @@
 }
 
 #imageSpace {
-  background: #dce1de;
+  background: #edfceace;
+  border-radius: 7px;
 }
 
 #infoSpace {
   padding: 10px;
-  padding-top: 10%;
+  padding-right: 15px;
+  padding-top: 5%;
+  background: #edfceace;
+  border-radius: 7px;
 }
 
 .projectInfo h2,
@@ -27,11 +31,11 @@
 
 .projectInfo p {
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.95);
+  color: rgba(0, 0, 0);
 }
 
 .modal .ant-modal-header {
-  background: #dce1de;
+  /* background: #dce1de; */
   border-bottom: none;
   width: 66.66666%;
   text-align: center;
@@ -71,7 +75,7 @@
 }
 
 .ant-card-meta-description {
-  color: rgba(0, 0, 0, 0.65);
+  color: rgba(0, 0, 0, 0.85);
 }
 
 .text-center {
@@ -100,4 +104,28 @@
   z-index: 1;
   top: 50%;
   color: rgba(0, 0, 0, 0.25);
+}
+
+.innerCard {
+  background: #d9f8d3ce;
+  min-height: 50vh;
+  border-radius: 7px;
+}
+
+.ant-card-body {
+  font-size: 1.1vw;
+}
+
+.ant-card-meta-title {
+  font-size: 1.5vw;
+  color: rgba(0, 0, 0);
+}
+
+a.ant-btn {
+  color: #3f6600;
+}
+
+a.ant-btn:hover {
+  border-color: #bae637;
+  color: #7cb305;
 }

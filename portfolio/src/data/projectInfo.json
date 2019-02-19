@@ -13,7 +13,7 @@
     {
       "id": 2,
       "title": "MatrixVision",
-      "shortdesc": "A Web Application that takes a users webcam video and manipulated the pixels to create a matrix-like filter",
+      "shortdesc": "A Web Application that takes a users webcam video and manipulates the pixels to create a matrix-like filter",
       "description": "",
       "technologies": "React, Javascript, HTML5, CSS",
       "github": "https://github.com/SteveLeong/MatrixVision",
@@ -24,10 +24,10 @@
       "id": 3,
       "title": "Critix",
       "shortdesc": "A Web Application that allows photographers and digital illustrators to share and critic works of other content creators",
-      "description": "",
-      "technologies": "EJS, HTML5, CSS, MongoDB",
+      "description": "Critix is an image hosting application similar to Instagram, but is designed for a specific kind of audience: creators who are looking for constructive criticism about their works.",
+      "technologies": "Embedded JavaScript, HTML5, Materialize CSS, MongoDB + Mongoose, Node.js, Express.js",
       "github": "https://github.com/joshquines/Critix",
-      "images": ["mid-image"],
+      "images": ["Critix1", "Critix2", "Critix3", "Critix4", "Critix5"],
       "demo": ""
     },
     {
