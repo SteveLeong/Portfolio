@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "04db353203053a6c286856ba1222d39e",
-    "url": "/Portfolio/static/media/LeafBank3.04db3532.jpg"
+    "revision": "64d314a31f17307230d3db481d4e5298",
+    "url": "/Portfolio/static/media/ImportCar3.64d314a3.jpg"
   },
   {
-    "revision": "20cccdc2b8e941128ff8",
-    "url": "/Portfolio/static/css/main.b83abea4.chunk.css"
+    "revision": "1ebd5cab6275c9d4f450",
+    "url": "/Portfolio/static/css/main.b35b7a46.chunk.css"
   },
   {
     "revision": "591eb5beb99e69ed8d3e",
@@ -20,12 +20,32 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/js/2.152131b4.chunk.js"
   },
   {
+    "revision": "b98ce6a1cad33a4720d9af3c2ab0caff",
+    "url": "/Portfolio/static/media/minimal2.b98ce6a1.jpg"
+  },
+  {
     "revision": "2f071c1b7f4f04decff8b480f93461ce",
     "url": "/Portfolio/static/media/projectBG3.2f071c1b.jpg"
   },
   {
-    "revision": "b98ce6a1cad33a4720d9af3c2ab0caff",
-    "url": "/Portfolio/static/media/minimal2.b98ce6a1.jpg"
+    "revision": "32400f4e08932a94d8bfd2422702c446",
+    "url": "/Portfolio/static/media/fontawesome-webfont.32400f4e.eot"
+  },
+  {
+    "revision": "db812d8a70a4e88e888744c1c9a27e89",
+    "url": "/Portfolio/static/media/fontawesome-webfont.db812d8a.woff2"
+  },
+  {
+    "revision": "a35720c2fed2c7f043bc7e4ffb45e073",
+    "url": "/Portfolio/static/media/fontawesome-webfont.a35720c2.woff"
+  },
+  {
+    "revision": "a3de2170e4e9df77161ea5d3f31b2668",
+    "url": "/Portfolio/static/media/fontawesome-webfont.a3de2170.ttf"
+  },
+  {
+    "revision": "f775f9cca88e21d45bebe185b27c0e5b",
+    "url": "/Portfolio/static/media/fontawesome-webfont.f775f9cc.svg"
   },
   {
     "revision": "32b324d51533841b53b1d67023d654ea",
@@ -56,8 +76,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/ImportCar2.266a2a25.jpg"
   },
   {
-    "revision": "64d314a31f17307230d3db481d4e5298",
-    "url": "/Portfolio/static/media/ImportCar3.64d314a3.jpg"
+    "revision": "1ebd5cab6275c9d4f450",
+    "url": "/Portfolio/static/js/main.1ebd5cab.chunk.js"
   },
   {
     "revision": "a99cb71352b110acc2415beed2e2e321",
@@ -68,8 +88,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/LeafBank2.535d9494.jpg"
   },
   {
-    "revision": "20cccdc2b8e941128ff8",
-    "url": "/Portfolio/static/js/main.20cccdc2.chunk.js"
+    "revision": "04db353203053a6c286856ba1222d39e",
+    "url": "/Portfolio/static/media/LeafBank3.04db3532.jpg"
   },
   {
     "revision": "38659d1d73fea0f10b20575813698552",
@@ -132,7 +152,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/css/2.4be36f89.chunk.css"
   },
   {
-    "revision": "1b4dbba30598397cac347b308c1eccf5",
+    "revision": "a31681e5f39050309de227acdd9737e5",
     "url": "/Portfolio/index.html"
   }
 ];
