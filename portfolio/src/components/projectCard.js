@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { Card, Modal, Row, Col, Carousel, Button, Icon } from "antd";
+import { Card, Modal, Row, Col, Carousel, Button, Icon, Popover } from "antd";
 import "antd/dist/antd.css";
 import "../styles/projectCard.css";
 // import "../App.css";
@@ -12,7 +12,7 @@ const modalStyle = {
 };
 
 class ProjectCard extends Component {
-  state = { visible: false };
+  state = { visible: false, hover: false };
 
   constructor(props) {
     super(props);
@@ -39,6 +39,12 @@ class ProjectCard extends Component {
     });
   };
 
+  handleHoverChange = show => {
+    this.setState({
+      hover: show
+    });
+  };
+
   displayImages = props => {
     return props.map(image => {
       return (
@@ -54,6 +60,7 @@ class ProjectCard extends Component {
 
   render() {
     const { projectInfo } = this.props;
+    const hoverContent = <div>Unavaiable due to client request</div>;
     return (
       <div>
         <Card
@@ -121,20 +128,35 @@ class ProjectCard extends Component {
                 {/* Title, Description, Technologies */}
                 <div className="projectInfo">
                   <h3>Title</h3>
-                  <p style={{ fontSize: "20px" }}>{projectInfo.title}</p>
+                  <p style={{ fontSize: "3vh" }}>{projectInfo.title}</p>
                   <h3>Description</h3>
-                  <p>{projectInfo.shortdesc}</p>
+                  <p>{projectInfo.description}</p>
                   <h3>Technologies</h3>
                   <p>{projectInfo.technologies}</p>
                   <div className="text-center">
-                    <Button
-                      size="large"
-                      className="btn"
-                      href={projectInfo.github}
-                      target="_blank"
+                    <Popover
+                      content={hoverContent}
+                      trigger="hover"
+                      placement="bottom"
+                      visible={this.state.hover}
+                      onVisibleChange={
+                        projectInfo.github === "unavailable"
+                          ? this.handleHoverChange
+                          : ""
+                      }
                     >
-                      Github
-                    </Button>
+                      <Button
+                        size="large"
+                        className="btn"
+                        href={projectInfo.github}
+                        disabled={
+                          projectInfo.github === "unavailable" ? true : false
+                        }
+                        target="_blank"
+                      >
+                        Github
+                      </Button>
+                    </Popover>
                   </div>
                 </div>
               </Col>

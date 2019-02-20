@@ -21,6 +21,8 @@
   padding-top: 5%;
   background: #edfceace;
   border-radius: 7px;
+  overflow: scroll;
+  font-size: 1vw;
 }
 
 .projectInfo h2,
@@ -104,7 +106,7 @@
 
 .innerCard {
   background: #d9f8d3ce;
-  min-height: 50vh;
+  min-height: 55vh;
   border-radius: 7px;
 }
 
@@ -123,6 +125,7 @@
 
 a.ant-btn {
   color: #3f6600;
+  font-size: 2.5vh;
 }
 
 a.ant-btn:hover {
