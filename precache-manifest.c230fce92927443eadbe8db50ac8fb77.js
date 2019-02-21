@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/ImportCar3.64d314a3.jpg"
   },
   {
-    "revision": "1ebd5cab6275c9d4f450",
-    "url": "/Portfolio/static/css/main.b35b7a46.chunk.css"
+    "revision": "404b4d5b9a6231a21534",
+    "url": "/Portfolio/static/css/main.722408f0.chunk.css"
   },
   {
     "revision": "591eb5beb99e69ed8d3e",
@@ -16,20 +16,16 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/profile.a99cd454.jpg"
   },
   {
-    "revision": "152131b489e3573a8518",
-    "url": "/Portfolio/static/js/2.152131b4.chunk.js"
-  },
-  {
-    "revision": "b98ce6a1cad33a4720d9af3c2ab0caff",
-    "url": "/Portfolio/static/media/minimal2.b98ce6a1.jpg"
+    "revision": "5fe1004530c8f9761ce8",
+    "url": "/Portfolio/static/js/2.5fe10045.chunk.js"
   },
   {
     "revision": "2f071c1b7f4f04decff8b480f93461ce",
     "url": "/Portfolio/static/media/projectBG3.2f071c1b.jpg"
   },
   {
-    "revision": "32400f4e08932a94d8bfd2422702c446",
-    "url": "/Portfolio/static/media/fontawesome-webfont.32400f4e.eot"
+    "revision": "b98ce6a1cad33a4720d9af3c2ab0caff",
+    "url": "/Portfolio/static/media/minimal2.b98ce6a1.jpg"
   },
   {
     "revision": "db812d8a70a4e88e888744c1c9a27e89",
@@ -38,6 +34,10 @@ self.__precacheManifest = [
   {
     "revision": "a35720c2fed2c7f043bc7e4ffb45e073",
     "url": "/Portfolio/static/media/fontawesome-webfont.a35720c2.woff"
+  },
+  {
+    "revision": "32400f4e08932a94d8bfd2422702c446",
+    "url": "/Portfolio/static/media/fontawesome-webfont.32400f4e.eot"
   },
   {
     "revision": "a3de2170e4e9df77161ea5d3f31b2668",
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/ImportCar2.266a2a25.jpg"
   },
   {
-    "revision": "1ebd5cab6275c9d4f450",
-    "url": "/Portfolio/static/js/main.1ebd5cab.chunk.js"
+    "revision": "404b4d5b9a6231a21534",
+    "url": "/Portfolio/static/js/main.404b4d5b.chunk.js"
   },
   {
     "revision": "a99cb71352b110acc2415beed2e2e321",
@@ -148,11 +148,11 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/dark.acd303ca.jpg"
   },
   {
-    "revision": "152131b489e3573a8518",
+    "revision": "5fe1004530c8f9761ce8",
     "url": "/Portfolio/static/css/2.4be36f89.chunk.css"
   },
   {
-    "revision": "a31681e5f39050309de227acdd9737e5",
+    "revision": "1875cb26309ded4f4bc34f7751ff866b",
     "url": "/Portfolio/index.html"
   }
 ];
