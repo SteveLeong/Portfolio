@@ -79,7 +79,7 @@ class App extends Component {
                   </div>
                 </div>
                 <div className="page" id="p2">
-                  <div className="resume" />
+                  <div className="construction" />
                   {/* <Icon type="idcard" /> */}
                   <div className="symbol">
                     <span className="title">Under Construction!</span>
