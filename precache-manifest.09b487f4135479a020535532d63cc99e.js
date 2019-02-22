@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/ImportCar3.ddb370d0.jp2"
   },
   {
-    "revision": "e414e5081d44ebb881a6",
+    "revision": "7750dc3a73f067784007",
     "url": "/Portfolio/static/css/main.dd83a37c.chunk.css"
   },
   {
@@ -28,16 +28,16 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/projectBG3.4e941112.jp2"
   },
   {
-    "revision": "a35720c2fed2c7f043bc7e4ffb45e073",
-    "url": "/Portfolio/static/media/fontawesome-webfont.a35720c2.woff"
-  },
-  {
     "revision": "32400f4e08932a94d8bfd2422702c446",
     "url": "/Portfolio/static/media/fontawesome-webfont.32400f4e.eot"
   },
   {
     "revision": "db812d8a70a4e88e888744c1c9a27e89",
     "url": "/Portfolio/static/media/fontawesome-webfont.db812d8a.woff2"
+  },
+  {
+    "revision": "a35720c2fed2c7f043bc7e4ffb45e073",
+    "url": "/Portfolio/static/media/fontawesome-webfont.a35720c2.woff"
   },
   {
     "revision": "a3de2170e4e9df77161ea5d3f31b2668",
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/ImportCar2.168707f5.jp2"
   },
   {
-    "revision": "e414e5081d44ebb881a6",
-    "url": "/Portfolio/static/js/main.e414e508.chunk.js"
+    "revision": "7750dc3a73f067784007",
+    "url": "/Portfolio/static/js/main.7750dc3a.chunk.js"
   },
   {
     "revision": "fad669951c61eea563f23b8321876a29",
@@ -148,7 +148,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/css/2.4be36f89.chunk.css"
   },
   {
-    "revision": "e650012e97098a014ce2609c39094489",
+    "revision": "76fbd3e169f042949e01b3e410ea8403",
     "url": "/Portfolio/index.html"
   }
 ];
