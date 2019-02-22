@@ -2,7 +2,7 @@
 @import url(./assets/css/font-awesome.min.css);
 @import "//fonts.googleapis.com/css?family=Source+Sans+Pro:200";
 
-* {
+*:not(.slick-track):not(.slick-list):not(.content .projectCard) {
   transition: all 500ms ease-out;
   -webkit-transition: all 500ms ease-out;
 }
@@ -15,6 +15,8 @@ section,
   height: 100%;
   margin: 0;
   padding: 0;
+  transition: all 500ms ease-out;
+  -webkit-transition: all 500ms ease-out;
   transition: all 1s cubic-bezier(0.5, -0.005, 0.2, 1) !important;
   -webkit-transition: all 1s cubic-bezier(0.5, -0.005, 0.2, 1) !important;
   color: #fff;

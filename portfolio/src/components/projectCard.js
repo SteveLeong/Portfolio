@@ -62,7 +62,7 @@ class ProjectCard extends Component {
     const { projectInfo } = this.props;
     const hoverContent = <div>Unavaiable due to client request</div>;
     return (
-      <div>
+      <div className="projectCard">
         <Card
           bordered={false}
           style={{
