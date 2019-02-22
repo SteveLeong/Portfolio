@@ -7,21 +7,23 @@ class Sidebar extends Component {
     return (
       <div>
         <ul className="sidebar">
-          <a href="#t1">
-            <li className="symbol" id="uno">
+          <li className="symbol" id="uno">
+            <a href="#t1">
               <Icon type="home" />
-            </li>
-          </a>
-          <a href="#t2">
-            <li className="symbol" id="dos">
+            </a>
+          </li>
+
+          <li className="symbol" id="dos">
+            <a href="#t2">
               <Icon type="idcard" />
-            </li>
-          </a>
-          <a href="#t3">
-            <li className="symbol" id="tres">
+            </a>
+          </li>
+
+          <li className="symbol" id="tres">
+            <a href="#t3">
               <Icon type="folder" />
-            </li>
-          </a>
+            </a>
+          </li>
         </ul>
       </div>
     );

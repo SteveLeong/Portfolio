@@ -133,6 +133,11 @@ section {
   text-align: center;
 }
 
+.sidebar li a {
+  text-decoration: none;
+  border-bottom: none;
+}
+
 ul li {
   margin: 30px 0;
 }

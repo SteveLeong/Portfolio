@@ -80,8 +80,8 @@ class ProjectCard extends Component {
             bordered={false}
             cover={
               <img
-                alt="example"
-                src={require("../images/projectImages/" +
+                alt={projectInfo.images[0]}
+                src={require("../images/thumbs/" +
                   projectInfo.images[0] +
                   ".jp2")}
               />
