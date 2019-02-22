@@ -50,7 +50,7 @@ class ProjectCard extends Component {
       return (
         <div key="image">
           <img
-            src={require("../images/projectImages/" + image + ".jpg")}
+            src={require("../images/projectImages/" + image + ".jp2")}
             alt="blah"
           />
         </div>
@@ -83,7 +83,7 @@ class ProjectCard extends Component {
                 alt="example"
                 src={require("../images/projectImages/" +
                   projectInfo.images[0] +
-                  ".jpg")}
+                  ".jp2")}
               />
             }
           >

@@ -2,6 +2,11 @@
 @import url(./assets/css/font-awesome.min.css);
 @import "//fonts.googleapis.com/css?family=Source+Sans+Pro:200";
 
+* {
+  transition: all 500ms ease-out;
+  -webkit-transition: all 500ms ease-out;
+}
+
 html,
 body,
 section,
@@ -41,7 +46,7 @@ section {
 #p3 {
   left: 200%;
   background: #a3bbad;
-  background-image: url("./images/projectBG3.jpg");
+  background-image: url("./images/projectBG3.jp2");
   background-size: cover;
   background-position: top center;
 }
@@ -51,10 +56,6 @@ section {
   background: deeppink;
 }
 
-.sidebar {
-  position: fixed;
-  z-index: 1;
-}
 #t1:target .page#p1 {
   transform: translateX(0);
 }
@@ -87,6 +88,11 @@ section {
   display: block;
 }
 
+.sidebar {
+  position: fixed;
+  z-index: 1;
+}
+
 .sidebar .symbol:hover {
   opacity: 0.6;
 }
@@ -99,7 +105,7 @@ section {
 #t3:target .sidebar .symbol,
 #t4:target .sidebar .symbol {
   transform: scale(0.6);
-  transition-delay: 0.2s;
+  transition-delay: 0.25s;
 }
 
 #t2:target #dos {
@@ -201,7 +207,7 @@ a {
   transform: translateX(360%);
   line-height: 1.3;
   border: none;
-  background-image: url("./images/minimal2.jpg");
+  background-image: url("./images/minimal2.jp2");
   background-size: cover;
   background-position: top center;
   -webkit-filter: blur(8px);

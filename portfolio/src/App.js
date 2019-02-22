@@ -36,7 +36,7 @@ class App extends Component {
                   {/* <Icon type="home" /> */}
                   <div id="header">
                     <span className="avatar">
-                      <img src={require("./images/profile.jpg")} alt="" />
+                      <img src={require("./images/profile.jp2")} alt="" />
                     </span>
                     <span className="title">Steven Leong</span>
                     <span className="hint">Web Developer</span>
