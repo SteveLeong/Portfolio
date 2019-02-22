@@ -19,6 +19,14 @@ class ProjectCard extends Component {
     this.carousel = React.createRef();
   }
 
+  demoBtn = demoLink => {
+    return (
+      <Button size="large" className="btn" href={demoLink} target="_blank">
+        Demo
+      </Button>
+    );
+  };
+
   next = () => {
     this.carousel.next();
   };
@@ -157,6 +165,9 @@ class ProjectCard extends Component {
                       >
                         Github
                       </Button>
+                      {projectInfo.demo !== ""
+                        ? this.demoBtn(projectInfo.demo)
+                        : ""}
                     </Popover>
                   </div>
                 </div>
