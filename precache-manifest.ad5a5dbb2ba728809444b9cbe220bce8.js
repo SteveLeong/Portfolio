@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/ImportCar3.64d314a3.jpg"
   },
   {
-    "revision": "404b4d5b9a6231a21534",
-    "url": "/Portfolio/static/css/main.722408f0.chunk.css"
+    "revision": "c37e20655f75c0e85cfd",
+    "url": "/Portfolio/static/css/main.71b57e86.chunk.css"
   },
   {
     "revision": "591eb5beb99e69ed8d3e",
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/minimal2.b98ce6a1.jpg"
   },
   {
-    "revision": "db812d8a70a4e88e888744c1c9a27e89",
-    "url": "/Portfolio/static/media/fontawesome-webfont.db812d8a.woff2"
-  },
-  {
     "revision": "a35720c2fed2c7f043bc7e4ffb45e073",
     "url": "/Portfolio/static/media/fontawesome-webfont.a35720c2.woff"
+  },
+  {
+    "revision": "db812d8a70a4e88e888744c1c9a27e89",
+    "url": "/Portfolio/static/media/fontawesome-webfont.db812d8a.woff2"
   },
   {
     "revision": "32400f4e08932a94d8bfd2422702c446",
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/ImportCar2.266a2a25.jpg"
   },
   {
-    "revision": "404b4d5b9a6231a21534",
-    "url": "/Portfolio/static/js/main.404b4d5b.chunk.js"
+    "revision": "c37e20655f75c0e85cfd",
+    "url": "/Portfolio/static/js/main.c37e2065.chunk.js"
   },
   {
     "revision": "a99cb71352b110acc2415beed2e2e321",
@@ -152,7 +152,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/css/2.4be36f89.chunk.css"
   },
   {
-    "revision": "1875cb26309ded4f4bc34f7751ff866b",
+    "revision": "fc25b1a5dffb875c2c6d725cb08887e0",
     "url": "/Portfolio/index.html"
   }
 ];
