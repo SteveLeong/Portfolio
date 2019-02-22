@@ -37,6 +37,7 @@ class ProjectCard extends Component {
     this.setState({
       visible: false
     });
+    this.carousel.goTo(0, true);
   };
 
   handleHoverChange = show => {
