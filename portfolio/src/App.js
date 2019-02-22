@@ -58,7 +58,7 @@ class App extends Component {
                       </li>
                       <li>
                         <a
-                          href="www.linkedin.com/in/steven-leong"
+                          href="https://www.linkedin.com/in/steven-leong/"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="icon style2 fa-linkedin"
