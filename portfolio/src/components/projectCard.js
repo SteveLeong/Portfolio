@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
 import { Card, Modal, Row, Col, Carousel, Button, Icon, Popover } from "antd";
-import "antd/dist/antd.css";
-import "../styles/projectCard.css";
-// import "../App.css";
+// import "antd/dist/antd.css";
+// import "../assets/css/projectCard.css";
+
 const { Meta } = Card;
 
 const modalStyle = {
@@ -41,7 +41,6 @@ class ProjectCard extends Component {
   };
 
   handleCancel = e => {
-    console.log(e);
     this.setState({
       visible: false
     });
@@ -59,7 +58,7 @@ class ProjectCard extends Component {
       return (
         <div key="image">
           <img
-            src={require("../images/projectImages/" + image + ".jp2")}
+            src={require("../assets/images/projectImages/" + image + ".jp2")}
             alt="blah"
           />
         </div>
@@ -90,7 +89,7 @@ class ProjectCard extends Component {
             cover={
               <img
                 alt={projectInfo.images[0]}
-                src={require("../images/thumbs/" +
+                src={require("../assets/images/thumbs/" +
                   projectInfo.images[0] +
                   ".jp2")}
               />

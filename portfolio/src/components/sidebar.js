@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../App.css";
+import "../assets/css/main.css";
 import { Icon } from "antd";
 
 class Sidebar extends Component {
