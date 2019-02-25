@@ -10,11 +10,11 @@
   margin: auto;
   text-align: center;
   color: FFFCE8; }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     .headTitle {
       font-size: 2rem;
       width: 100%;
-      margin-top: 15vh;
+      margin-top: 3em;
       z-index: 1; } }
 
 .projectContent {
@@ -38,10 +38,10 @@
       margin: auto; }
       .projectContent .projectCard .outerCard .innerCard {
         background: #721121;
-        height: 55vh;
+        height: 25em;
         border-radius: 7px; }
         .projectContent .projectCard .outerCard .innerCard .ant-card-cover {
-          height: 30vh; }
+          height: 15em; }
           .projectContent .projectCard .outerCard .innerCard .ant-card-cover img {
             object-fit: cover;
             height: 100%; }
@@ -50,8 +50,9 @@
           color: #fff; }
         .projectContent .projectCard .outerCard .innerCard .ant-card-meta-description {
           font-size: 0.8rem;
+          font-style: italic;
           color: rgba(255, 255, 255, 0.75); }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     .projectContent {
       left: 5%;
       top: 5rem; }
@@ -148,7 +149,7 @@ section {
           font-size: 1.35rem; }
         #header .icons .icon.style2:hover {
           background-color: rgba(255, 255, 255, 0.25); }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     #header {
       padding: 4rem 0 2rem 0; }
       #header .avatar img {
@@ -164,7 +165,11 @@ section {
   z-index: 1;
   margin: auto;
   padding: 0;
-  text-align: center; }
+  text-align: center;
+  /* Custom, iPhone Retina */
+  /* Small Devices, Tablets */
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */ }
   .sidebar .symbol {
     font-size: 32px;
     margin: 3rem 0;
@@ -177,15 +182,21 @@ section {
       color: #fff;
       text-decoration: none;
       border-bottom: none; }
-  @media screen and (min-width: 600px) {
+  @media screen and (max-width: 768px) {
     .sidebar {
-      position: fixed;
-      top: 0;
-      bottom: 0;
+      position: absolute;
+      right: 0;
       left: 0;
-      height: 40%;
-      width: 5rem; } }
-  @media screen and (min-width: 700px) {
+      bottom: 0;
+      width: 100vw;
+      height: 8em;
+      margin: 0;
+      list-style: none;
+      padding-left: 0; }
+      .sidebar .symbol {
+        display: inline-block;
+        padding: 0 2rem 0 2rem; } }
+  @media screen and (min-width: 769px) {
     .sidebar {
       position: fixed;
       top: 0;
@@ -193,20 +204,14 @@ section {
       left: 0;
       height: 40%;
       width: 10vw; } }
-  @media screen and (max-width: 600px) {
+  @media screen and (min-width: 1200px) {
     .sidebar {
-      position: absolute;
-      right: 0;
-      left: 0;
+      position: fixed;
+      top: 0;
       bottom: 0;
-      width: 100vw;
-      height: 15vh;
-      margin: 0;
-      list-style: none;
-      padding-left: 0; }
-      .sidebar .symbol {
-        display: inline-block;
-        padding: 0 2rem 0 2rem; } }
+      left: 0;
+      height: 40%;
+      width: 10vw; } }
 
 #t2:target .sidebar .symbol,
 #t3:target .sidebar .symbol,
@@ -242,10 +247,10 @@ section {
   background-image: url("../images/projectBG3.jp2");
   background-size: cover;
   background-position: top center; }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 769px) {
     #p3 {
       left: 190%;
-      bottom: 10vh; } }
+      bottom: 5em; } }
 
 #p4 {
   left: 300%;

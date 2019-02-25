@@ -5,6 +5,7 @@
 $source-sans-pro: "Source Sans Pro", sans-serif;
 $primary-color: #cf301b;
 $secondary-color: #721121;
+$screen-mobile: 480px;
 $screen-small: 600px;
 $screen-large: 1400px;
 
@@ -142,7 +143,7 @@ section {
     }
   }
 
-  @media screen and (max-width: $screen-small) {
+  @media screen and (max-width: 768px) {
     padding: 4rem 0 2rem 0;
     .avatar img {
       width: 4.5rem;
@@ -184,17 +185,33 @@ section {
     }
   }
 
-  // regular screen sizes
-  @media screen and (min-width: $screen-small) {
-    position: fixed;
-    top: 0;
-    bottom: 0;
+  /* Custom, iPhone Retina */
+  //   @media screen and (min-width: 320px) {
+  //   }
+
+  //   /* Extra Small Devices, Phones */
+  //   @media only screen and (min-width: 480px) {
+  //   }
+
+  // mobile
+  @media screen and (max-width: 768px) {
+    position: absolute;
+    right: 0;
     left: 0;
-    height: 40%;
-    width: 5rem;
+    bottom: 0;
+    width: 100vw;
+    height: 8em;
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+    .symbol {
+      display: inline-block;
+      padding: 0 2rem 0 2rem;
+    }
   }
 
-  @media screen and (min-width: 700px) {
+  /* Small Devices, Tablets */
+  @media screen and (min-width: 769px) {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -203,21 +220,18 @@ section {
     width: 10vw;
   }
 
-  // mobile
-  @media screen and (max-width: $screen-small) {
-    position: absolute;
-    right: 0;
-    left: 0;
+  /* Medium Devices, Desktops */
+  //   @media only screen and (min-width: 992px) {
+  //   }
+
+  /* Large Devices, Wide Screens */
+  @media screen and (min-width: 1200px) {
+    position: fixed;
+    top: 0;
     bottom: 0;
-    width: 100vw;
-    height: 15vh;
-    margin: 0;
-    list-style: none;
-    padding-left: 0;
-    .symbol {
-      display: inline-block;
-      padding: 0 2rem 0 2rem;
-    }
+    left: 0;
+    height: 40%;
+    width: 10vw;
   }
 }
 
@@ -264,9 +278,9 @@ section {
   background-size: cover;
   background-position: top center;
 
-  @media screen and (max-width: $screen-small) {
+  @media screen and (max-width: 769px) {
     left: 190%;
-    bottom: 10vh;
+    bottom: 5em;
   }
 }
 
