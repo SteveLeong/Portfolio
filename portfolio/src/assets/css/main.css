@@ -70,6 +70,38 @@
       height: inherit; }
       .ant-modal-body .container .row .imageSpace {
         height: inherit; }
+        .ant-modal-body .container .row .imageSpace .carouselContainer {
+          height: inherit; }
+          .ant-modal-body .container .row .imageSpace .carouselContainer .slideArrows {
+            position: absolute;
+            color: rgba(255, 255, 255, 0.25);
+            font-size: 1.5em;
+            top: 50%; }
+          .ant-modal-body .container .row .imageSpace .carouselContainer .rightIcon {
+            right: 0; }
+          .ant-modal-body .container .row .imageSpace .carouselContainer .leftIcon {
+            z-index: 1; }
+          .ant-modal-body .container .row .imageSpace .carouselContainer .ant-carousel {
+            height: inherit; }
+            .ant-modal-body .container .row .imageSpace .carouselContainer .ant-carousel div,
+            .ant-modal-body .container .row .imageSpace .carouselContainer .ant-carousel img,
+            .ant-modal-body .container .row .imageSpace .carouselContainer .ant-carousel .slick-slider,
+            .ant-modal-body .container .row .imageSpace .carouselContainer .ant-carousel .slick-list,
+            .ant-modal-body .container .row .imageSpace .carouselContainer .ant-carousel .slick-current,
+            .ant-modal-body .container .row .imageSpace .carouselContainer .ant-carousel .slick-track {
+              height: inherit; }
+              .ant-modal-body .container .row .imageSpace .carouselContainer .ant-carousel div img,
+              .ant-modal-body .container .row .imageSpace .carouselContainer .ant-carousel img img,
+              .ant-modal-body .container .row .imageSpace .carouselContainer .ant-carousel .slick-slider img,
+              .ant-modal-body .container .row .imageSpace .carouselContainer .ant-carousel .slick-list img,
+              .ant-modal-body .container .row .imageSpace .carouselContainer .ant-carousel .slick-current img,
+              .ant-modal-body .container .row .imageSpace .carouselContainer .ant-carousel .slick-track img {
+                width: 90%;
+                object-fit: scale-down;
+                text-align: center;
+                margin: auto;
+                padding-bottom: 2em;
+                padding-top: 2em; }
       .ant-modal-body .container .row .infoSpace {
         height: inherit;
         padding: 0.5em; }

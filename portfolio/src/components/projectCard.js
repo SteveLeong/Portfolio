@@ -57,14 +57,8 @@ class ProjectCard extends Component {
   displayImages = props => {
     return props.map(image => {
       return (
-        <div key="image">
+        <div key="image" className="imageContainer">
           <img
-            style={{
-              width: "90%",
-              height: "90%",
-              objectFit: "scale-down",
-              margin: "auto"
-            }}
             src={require("../assets/images/projectImages/" + image + ".jp2")}
             alt="blah"
           />
@@ -116,20 +110,19 @@ class ProjectCard extends Component {
             <Row className="row">
               <Col span={16} className="imageSpace">
                 <div className="carouselContainer">
-                  {/* <Icon
+                  <Icon
                     type="left"
                     onClick={this.previous}
-                    className="leftIcon"
-                  // /> */}
-                  {/* // <Carousel ref={node => (this.carousel = node)}>
-                  //   {this.displayImages(projectInfo.images)}
-                  // </Carousel> */}
-                  {/* <Icon
+                    className="slideArrows leftIcon"
+                  />
+                  <Carousel ref={node => (this.carousel = node)}>
+                    {this.displayImages(projectInfo.images)}
+                  </Carousel>
+                  <Icon
                     type="right"
                     onClick={this.next}
-                    className="rightIcon"
-                    style={{ fontSize: "1.5em" }}
-                  /> */}
+                    className="slideArrows rightIcon"
+                  />
                 </div>
               </Col>
               <Col span={8} className="infoSpace">
