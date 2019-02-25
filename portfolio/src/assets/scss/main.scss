@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i");
+
+@import "./_projects";
+
 $source-sans-pro: "Source Sans Pro", sans-serif;
-$primary-color: white;
+$primary-color: #cf301b;
+$secondary-color: #721121;
 $screen-small: 600px;
 $screen-large: 1400px;
 
@@ -12,6 +16,11 @@ $screen-large: 1400px;
 @mixin easeOut {
   transition: all 500ms ease-out;
   -webkit-transition: all 500ms ease-out;
+}
+
+@mixin noTransition {
+  transition: none;
+  -webkit-transition: none;
 }
 
 html,
@@ -98,24 +107,23 @@ section {
       text-decoration: none;
       border-bottom: none;
       position: relative;
-      color: $primary-color;
+      color: white;
       font-size: 1.5rem;
 
       &:before {
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;
-        text-transform: none !important;
       }
 
       &.style2 {
-        -moz-transition: all 0.2s ease;
-        -webkit-transition: all 0.2s ease;
-        -ms-transition: all 0.2s ease;
-        transition: all 0.2s ease;
-        height: 1.5rem;
+        -moz-transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        transition: all 0.5s ease;
         border-radius: 100%;
         display: inline-block;
-        padding: 0.5rem;
+        width: 3rem;
+        padding: 0.2em;
         border: solid 1px rgba(255, 255, 255, 0.25);
         background-color: rgba(255, 255, 255, 0.075);
 
@@ -163,6 +171,7 @@ section {
     font-size: 32px;
     margin: 3rem 0;
     display: block;
+    @include easeOut();
 
     &:hover {
       opacity: 0.6;
@@ -191,7 +200,7 @@ section {
     bottom: 0;
     left: 0;
     height: 40%;
-    width: 10rem;
+    width: 10vw;
   }
 
   // mobile
@@ -201,6 +210,7 @@ section {
     left: 0;
     bottom: 0;
     width: 100vw;
+    height: 15vh;
     margin: 0;
     list-style: none;
     padding-left: 0;
@@ -249,10 +259,15 @@ section {
 
 #p3 {
   left: 200%;
-  background: #a3bbad;
+  background: #cf301bec;
   background-image: url("../images/projectBG3.jp2");
   background-size: cover;
   background-position: top center;
+
+  @media screen and (max-width: $screen-small) {
+    left: 190%;
+    bottom: 10vh;
+  }
 }
 
 #p4 {

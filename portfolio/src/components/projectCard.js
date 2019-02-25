@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 
 import { Card, Modal, Row, Col, Carousel, Button, Icon, Popover } from "antd";
-// import "antd/dist/antd.css";
+import "antd/dist/antd.css";
 // import "../assets/css/projectCard.css";
+import "../assets/css/main.css";
 
 const { Meta } = Card;
 
@@ -72,13 +73,9 @@ class ProjectCard extends Component {
     return (
       <div className="projectCard">
         <Card
+          className="outerCard"
           bordered={false}
-          style={{
-            background: "transparent",
-            padding: "5%",
-            marginBottom: "10%",
-            width: "90%"
-          }}
+          style={{}}
           hoverable
           onClick={this.showModal}
         >

@@ -32,7 +32,7 @@
     },
     {
       "id": 4,
-      "title": "Library Kiosk Application",
+      "title": "Library Kiosk App",
       "shortdesc": "A Windows Application to replace the current outdated systems libraries use today.",
       "description": "This application was created by me and 3 others in a Human-Computer Interactions course. Since this was my first experience in web development this course taught me the basics of design such as the different design methods, prototyping, usability testing, and the important of connecting with users. During the design process I went to local Libraries and interviewed people about their experience with the current system and used that data to further enhance the user experience ",
       "technologies": "XAML, Visual Studio",
@@ -42,7 +42,7 @@
     },
     {
       "id": 5,
-      "title": "Import Car Database",
+      "title": "Import Car DB",
       "shortdesc": "A database designed and implemented from scratch",
       "description": "This website was made by me and 2 others for a Database class. I gained experience creating my own Database using MySQL and although the website was not the main point of this project I gained experience in using php to connect my database with my website.",
       "technologies": "MySQL, PHP, Javascript, CSS, HTML",

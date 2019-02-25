@@ -1,4 +1,63 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i");
+.headTitle {
+  font-size: 3rem;
+  text-decoration: underline;
+  position: absolute;
+  right: 10%;
+  left: 0;
+  width: 20rem;
+  height: 5rem;
+  margin: auto;
+  text-align: center;
+  color: FFFCE8; }
+  @media screen and (max-width: 600px) {
+    .headTitle {
+      font-size: 2rem;
+      width: 100%;
+      margin-top: 15vh;
+      z-index: 1; } }
+
+.projectContent {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 10%;
+  left: 0;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  margin-top: 4rem;
+  text-align: center; }
+  .projectContent .projectCard {
+    min-height: 40vh; }
+    .projectContent .projectCard .outerCard {
+      background: transparent;
+      padding: 5%;
+      margin-bottom: 10%;
+      width: 90%;
+      margin: auto; }
+      .projectContent .projectCard .outerCard .innerCard {
+        background: #721121;
+        height: 55vh;
+        border-radius: 7px; }
+        .projectContent .projectCard .outerCard .innerCard .ant-card-cover {
+          height: 30vh; }
+          .projectContent .projectCard .outerCard .innerCard .ant-card-cover img {
+            object-fit: cover;
+            height: 100%; }
+        .projectContent .projectCard .outerCard .innerCard .ant-card-meta-title {
+          font-size: 1.3rem;
+          color: #fff; }
+        .projectContent .projectCard .outerCard .innerCard .ant-card-meta-description {
+          font-size: 0.8rem;
+          color: rgba(255, 255, 255, 0.75); }
+  @media screen and (max-width: 600px) {
+    .projectContent {
+      left: 5%;
+      top: 5rem; }
+      .projectContent .projectCard .outerCard .innerCard .ant-card-meta-title {
+        font-size: 1rem; } }
+
 html,
 body,
 section,
@@ -69,17 +128,16 @@ section {
       font-size: 1.5rem; }
       #header .icons .icon:before {
         -moz-osx-font-smoothing: grayscale;
-        -webkit-font-smoothing: antialiased;
-        text-transform: none !important; }
+        -webkit-font-smoothing: antialiased; }
       #header .icons .icon.style2 {
-        -moz-transition: all 0.2s ease;
-        -webkit-transition: all 0.2s ease;
-        -ms-transition: all 0.2s ease;
-        transition: all 0.2s ease;
-        height: 1.5rem;
+        -moz-transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        transition: all 0.5s ease;
         border-radius: 100%;
         display: inline-block;
-        padding: 0.5rem;
+        width: 3rem;
+        padding: 0.2em;
         border: solid 1px rgba(255, 255, 255, 0.25);
         background-color: rgba(255, 255, 255, 0.075); }
         #header .icons .icon.style2:before {
@@ -110,7 +168,9 @@ section {
   .sidebar .symbol {
     font-size: 32px;
     margin: 3rem 0;
-    display: block; }
+    display: block;
+    transition: all 500ms ease-out;
+    -webkit-transition: all 500ms ease-out; }
     .sidebar .symbol:hover {
       opacity: 0.6; }
     .sidebar .symbol a {
@@ -132,7 +192,7 @@ section {
       bottom: 0;
       left: 0;
       height: 40%;
-      width: 10rem; } }
+      width: 10vw; } }
   @media screen and (max-width: 600px) {
     .sidebar {
       position: absolute;
@@ -140,6 +200,7 @@ section {
       left: 0;
       bottom: 0;
       width: 100vw;
+      height: 15vh;
       margin: 0;
       list-style: none;
       padding-left: 0; }
@@ -177,10 +238,14 @@ section {
 
 #p3 {
   left: 200%;
-  background: #a3bbad;
+  background: #cf301bec;
   background-image: url("../images/projectBG3.jp2");
   background-size: cover;
   background-position: top center; }
+  @media screen and (max-width: 600px) {
+    #p3 {
+      left: 190%;
+      bottom: 10vh; } }
 
 #p4 {
   left: 300%;

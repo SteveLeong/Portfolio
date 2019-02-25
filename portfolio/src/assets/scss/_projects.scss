@@ -1,0 +1,85 @@
+.headTitle {
+  font-size: 3rem;
+  // font-weight: bold;
+  text-decoration: underline;
+  position: absolute;
+  right: 10%;
+  left: 0;
+  width: 20rem;
+  height: 5rem;
+  margin: auto;
+  text-align: center;
+  color: FFFCE8;
+
+  @media screen and (max-width: 600px) {
+    font-size: 2rem;
+    width: 100%;
+    margin-top: 15vh;
+    z-index: 1;
+  }
+}
+
+.projectContent {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 10%;
+  left: 0;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  margin-top: 4rem;
+  text-align: center;
+
+  // Not sure if i need this
+  // #t3:target .page#p3 .projectContent {
+  //   transform: translateX(0) !important;
+  // }
+
+  .projectCard {
+    min-height: 40vh;
+
+    .outerCard {
+      background: transparent;
+      padding: 5%;
+      margin-bottom: 10%;
+      width: 90%;
+      margin: auto;
+
+      .innerCard {
+        background: #721121;
+        height: 55vh;
+        border-radius: 7px;
+        .ant-card-cover {
+          height: 30vh;
+          img {
+            object-fit: cover;
+            height: 100%;
+          }
+        }
+        .ant-card-meta-title {
+          font-size: 1.3rem;
+          color: #fff;
+        }
+
+        .ant-card-meta-description {
+          font-size: 0.8rem;
+          color: rgba(255, 255, 255, 0.75);
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 600px) {
+    left: 5%;
+    top: 5rem;
+    .projectCard {
+      .outerCard {
+        .innerCard {
+          .ant-card-meta-title {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

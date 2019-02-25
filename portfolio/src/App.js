@@ -1,27 +1,13 @@
 import React, { Component } from "react";
 
-import { Row, Col, Icon } from "antd";
+import { Icon } from "antd";
 import Sidebar from "./components/sidebar";
-import ProjectCard from "./components/projectCard";
+import Projects from "./components/projects";
 
-// import "./assets/css/App.css";
 import "./assets/css/main.css";
-
-const projectData = require("./assets/data/projectInfo.json");
 
 class App extends Component {
   state = { numPages: null, pageNumber: 1 };
-
-  showProjects = props => {
-    return props.projects.map(project => {
-      // console.log(project);
-      return (
-        <Col span={8} key={project.id}>
-          <ProjectCard projectInfo={project} />
-        </Col>
-      );
-    });
-  };
 
   render() {
     return (
@@ -92,10 +78,7 @@ class App extends Component {
                   </div>
                 </div>
                 <div className="page" id="p3">
-                  <span className="headTitle">My Projects</span>
-                  <div className="content">
-                    <Row gutter={16}>{this.showProjects(projectData)}</Row>
-                  </div>
+                  <Projects />
                 </div>
                 {/* <div className="page" id="p4">
                   <div className="symbol fa fa-dribbble">
