@@ -1,13 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i");
 
+@import "./variables";
 @import "./_projects";
-
-$source-sans-pro: "Source Sans Pro", sans-serif;
-$primary-color: #cf301b;
-$secondary-color: #721121;
-$screen-mobile: 480px;
-$screen-small: 600px;
-$screen-large: 1400px;
+@import "./_modals";
 
 @mixin slideTrans {
   transition: all 1s cubic-bezier(0.5, -0.005, 0.2, 1) !important;

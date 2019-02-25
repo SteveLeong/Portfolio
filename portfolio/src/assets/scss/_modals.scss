@@ -1,0 +1,49 @@
+@import "./variables";
+
+.ant-modal-close {
+  color: white !important;
+}
+
+.ant-modal-body {
+  background-color: $secondary-color;
+  .container {
+    height: 70vh;
+    .row {
+      height: inherit;
+
+      .imageSpace {
+        height: inherit;
+      }
+
+      .infoSpace {
+        height: inherit;
+        padding: 0.5em;
+
+        .projectInfo {
+          height: inherit;
+          p {
+            color: rgb(255, 255, 255);
+            font-size: 1vw;
+          }
+
+          h3 {
+            font-style: italic;
+            margin: 0;
+            color: rgba(255, 255, 255, 0.35);
+          }
+
+          .btn {
+            width: 90%;
+            margin: 5%;
+            color: #3f6600;
+            font-size: 2.5vh;
+            &:hover {
+              border-color: #bae637;
+              color: #7cb305;
+            }
+          }
+        }
+      }
+    }
+  }
+}

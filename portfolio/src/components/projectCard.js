@@ -45,7 +45,7 @@ class ProjectCard extends Component {
     this.setState({
       visible: false
     });
-    this.carousel.goTo(0, true);
+    // this.carousel.goTo(0, true);
   };
 
   handleHoverChange = show => {
@@ -59,6 +59,12 @@ class ProjectCard extends Component {
       return (
         <div key="image">
           <img
+            style={{
+              width: "90%",
+              height: "90%",
+              objectFit: "scale-down",
+              margin: "auto"
+            }}
             src={require("../assets/images/projectImages/" + image + ".jp2")}
             alt="blah"
           />
@@ -104,32 +110,29 @@ class ProjectCard extends Component {
           footer={null}
           onCancel={this.handleCancel}
           width="65%"
-          style={{ borderRadius: "40px" }}
-          bodyStyle={modalStyle}
           className="modal"
         >
           <div className="container">
             <Row className="row">
-              <Col span={16} className="col" id="imageSpace">
+              <Col span={16} className="imageSpace">
                 <div className="carouselContainer">
-                  <Icon
+                  {/* <Icon
                     type="left"
                     onClick={this.previous}
                     className="leftIcon"
-                    style={{ fontSize: "1.5em" }}
-                  />
-                  <Carousel ref={node => (this.carousel = node)}>
-                    {this.displayImages(projectInfo.images)}
-                  </Carousel>
-                  <Icon
+                  // /> */}
+                  {/* // <Carousel ref={node => (this.carousel = node)}>
+                  //   {this.displayImages(projectInfo.images)}
+                  // </Carousel> */}
+                  {/* <Icon
                     type="right"
                     onClick={this.next}
                     className="rightIcon"
                     style={{ fontSize: "1.5em" }}
-                  />
+                  /> */}
                 </div>
               </Col>
-              <Col span={8} className="col" id="infoSpace">
+              <Col span={8} className="infoSpace">
                 {/* Title, Description, Technologies */}
                 <div className="projectInfo">
                   <h3>Title</h3>
