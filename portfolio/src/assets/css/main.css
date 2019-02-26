@@ -164,11 +164,11 @@ section,
 body {
   background-image: url("../images/dark.jp2");
   background-size: cover;
-  background-position: top center; }
+  background-position: top center;
+  position: relative; }
 
 section {
-  width: 400%;
-  display: flex; }
+  width: 400%; }
 
 #header {
   text-align: center;
@@ -319,7 +319,7 @@ section {
 
 .page {
   position: absolute;
-  overflow: scroll;
+  overflow: hidden;
   margin: auto; }
 
 #p1 {

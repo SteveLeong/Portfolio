@@ -38,11 +38,11 @@ body {
   background-image: url("../images/dark.jp2");
   background-size: cover;
   background-position: top center;
+  position: relative;
 }
 
 section {
   width: 400%;
-  display: flex;
 }
 
 // HEADER
@@ -254,7 +254,7 @@ section {
 
 .page {
   position: absolute;
-  overflow: scroll;
+  overflow: hidden;
   margin: auto;
 }
 
