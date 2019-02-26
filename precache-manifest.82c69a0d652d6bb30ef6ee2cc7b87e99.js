@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ddb370d0c7363c5e198b7410a9c76746",
-    "url": "/Portfolio/static/media/ImportCar3.ddb370d0.jp2"
+    "revision": "6d5e79ffa30d7f1d2ab6861758e5c1c1",
+    "url": "/Portfolio/static/media/LeafBank2.6d5e79ff.jp2"
   },
   {
-    "revision": "5b26475c125908b8c547",
-    "url": "/Portfolio/static/css/main.bcaa2378.chunk.css"
+    "revision": "65a0d952768bcd238007",
+    "url": "/Portfolio/static/css/main.3377e1b3.chunk.css"
   },
   {
     "revision": "591eb5beb99e69ed8d3e",
@@ -16,36 +16,16 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/profile.c2d8910f.jp2"
   },
   {
-    "revision": "437b82f659227cd6910f",
-    "url": "/Portfolio/static/js/2.437b82f6.chunk.js"
-  },
-  {
-    "revision": "b98ce6a1cad33a4720d9af3c2ab0caff",
-    "url": "/Portfolio/static/media/minimal2.b98ce6a1.jp2"
+    "revision": "ef4f88f372e31c5e8bbf",
+    "url": "/Portfolio/static/js/2.ef4f88f3.chunk.js"
   },
   {
     "revision": "4e9411121bdfe8c0768a4ce4af424a66",
     "url": "/Portfolio/static/media/projectBG3.4e941112.jp2"
   },
   {
-    "revision": "32400f4e08932a94d8bfd2422702c446",
-    "url": "/Portfolio/static/media/fontawesome-webfont.32400f4e.eot"
-  },
-  {
-    "revision": "db812d8a70a4e88e888744c1c9a27e89",
-    "url": "/Portfolio/static/media/fontawesome-webfont.db812d8a.woff2"
-  },
-  {
-    "revision": "a35720c2fed2c7f043bc7e4ffb45e073",
-    "url": "/Portfolio/static/media/fontawesome-webfont.a35720c2.woff"
-  },
-  {
-    "revision": "a3de2170e4e9df77161ea5d3f31b2668",
-    "url": "/Portfolio/static/media/fontawesome-webfont.a3de2170.ttf"
-  },
-  {
-    "revision": "f775f9cca88e21d45bebe185b27c0e5b",
-    "url": "/Portfolio/static/media/fontawesome-webfont.f775f9cc.svg"
+    "revision": "acd303ca04f9132f1f5d6e554e0f6a01",
+    "url": "/Portfolio/static/media/dark.acd303ca.jp2"
   },
   {
     "revision": "28de63b78c1fc544d42d4b85e3e7ed51",
@@ -76,16 +56,16 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/ImportCar2.168707f5.jp2"
   },
   {
-    "revision": "5b26475c125908b8c547",
-    "url": "/Portfolio/static/js/main.5b26475c.chunk.js"
+    "revision": "ddb370d0c7363c5e198b7410a9c76746",
+    "url": "/Portfolio/static/media/ImportCar3.ddb370d0.jp2"
   },
   {
     "revision": "fad669951c61eea563f23b8321876a29",
     "url": "/Portfolio/static/media/LeafBank1.fad66995.jp2"
   },
   {
-    "revision": "6d5e79ffa30d7f1d2ab6861758e5c1c1",
-    "url": "/Portfolio/static/media/LeafBank2.6d5e79ff.jp2"
+    "revision": "65a0d952768bcd238007",
+    "url": "/Portfolio/static/js/main.65a0d952.chunk.js"
   },
   {
     "revision": "366e2efaf8cc9d0ba8bc4c4c9a070bbf",
@@ -140,15 +120,11 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/Matrix1.62a28436.jp2"
   },
   {
-    "revision": "acd303ca04f9132f1f5d6e554e0f6a01",
-    "url": "/Portfolio/static/media/dark.acd303ca.jp2"
-  },
-  {
-    "revision": "437b82f659227cd6910f",
+    "revision": "ef4f88f372e31c5e8bbf",
     "url": "/Portfolio/static/css/2.4be36f89.chunk.css"
   },
   {
-    "revision": "4e53a4af53c9fe57ba0c3ccac9a4ab25",
+    "revision": "a0cab30a409c30fad37895cb6e77ac2e",
     "url": "/Portfolio/index.html"
   }
 ];
