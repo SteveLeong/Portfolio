@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/LeafBank2.6d5e79ff.jp2"
   },
   {
-    "revision": "65a0d952768bcd238007",
-    "url": "/Portfolio/static/css/main.3377e1b3.chunk.css"
+    "revision": "55b68624bdde9a1f1c40",
+    "url": "/Portfolio/static/css/main.96837f46.chunk.css"
   },
   {
     "revision": "591eb5beb99e69ed8d3e",
@@ -18,10 +18,6 @@ self.__precacheManifest = [
   {
     "revision": "ef4f88f372e31c5e8bbf",
     "url": "/Portfolio/static/js/2.ef4f88f3.chunk.js"
-  },
-  {
-    "revision": "4e9411121bdfe8c0768a4ce4af424a66",
-    "url": "/Portfolio/static/media/projectBG3.4e941112.jp2"
   },
   {
     "revision": "acd303ca04f9132f1f5d6e554e0f6a01",
@@ -64,8 +60,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/LeafBank1.fad66995.jp2"
   },
   {
-    "revision": "65a0d952768bcd238007",
-    "url": "/Portfolio/static/js/main.65a0d952.chunk.js"
+    "revision": "55b68624bdde9a1f1c40",
+    "url": "/Portfolio/static/js/main.55b68624.chunk.js"
   },
   {
     "revision": "366e2efaf8cc9d0ba8bc4c4c9a070bbf",
@@ -124,7 +120,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/css/2.4be36f89.chunk.css"
   },
   {
-    "revision": "a0cab30a409c30fad37895cb6e77ac2e",
+    "revision": "ad93918d8e40aee90c61e872473908ea",
     "url": "/Portfolio/index.html"
   }
 ];
