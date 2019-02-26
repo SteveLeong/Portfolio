@@ -124,17 +124,27 @@
               border-color: #bae637;
               color: #7cb305; }
 
+@media screen and (max-width: 992px) {
+  .ant-modal .ant-modal-body {
+    padding: 8px; }
+  .ant-modal .imageSpace {
+    height: 50vh !important; }
+  .ant-modal .infoSpace {
+    text-align: center;
+    height: 20vh !important; } }
+
 @media screen and (max-width: 768px) {
+  .ant-modal .imageSpace {
+    height: 40vh !important; }
+  .ant-modal .infoSpace {
+    height: 30vh !important; } }
+
+@media screen and (max-width: 480px) {
   .ant-modal {
     position: fixed !important;
     width: 90vw !important;
-    left: 5vw; }
-    .ant-modal .ant-modal-body {
-      padding: 8px; }
-    .ant-modal .imageSpace {
-      height: 30vh !important; }
-    .ant-modal .infoSpace {
-      height: 40vh !important; } }
+    left: 5vw;
+    top: 5vh !important; } }
 
 html,
 body,

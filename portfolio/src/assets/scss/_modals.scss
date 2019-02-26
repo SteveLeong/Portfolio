@@ -88,21 +88,35 @@
     }
   }
 
-  @media screen and (max-width: 768px) {
-    position: fixed !important;
-    width: 90vw !important;
-    left: 5vw;
-
+  @media screen and (max-width: 992px) {
     .ant-modal-body {
       padding: 8px;
     }
 
     .imageSpace {
-      height: 30vh !important;
+      height: 50vh !important;
     }
 
     .infoSpace {
+      text-align: center;
+      height: 20vh !important;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .imageSpace {
       height: 40vh !important;
     }
+
+    .infoSpace {
+      height: 30vh !important;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    position: fixed !important;
+    width: 90vw !important;
+    left: 5vw;
+    top: 5vh !important;
   }
 }
