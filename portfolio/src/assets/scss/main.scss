@@ -43,6 +43,7 @@ body {
 
 section {
   width: 400%;
+  //   display: flex;
 }
 
 // HEADER
@@ -272,6 +273,7 @@ section {
   //   background-image: url("../images/projectBG3.jp2");
   background-size: cover;
   background-position: top center;
+  overflow: scroll;
 
   @media screen and (max-width: 769px) {
     left: 190%;

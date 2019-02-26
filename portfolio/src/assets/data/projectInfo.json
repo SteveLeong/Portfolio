@@ -39,7 +39,10 @@
       "github": "https://github.com/jglem/HCILibrary",
       "images": ["Library1", "Library2", "Library3", "Library4"],
       "demo": ""
-    },
+    }
+  ],
+
+  "other": [
     {
       "id": 5,
       "title": "Import Car DB",

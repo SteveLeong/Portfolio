@@ -332,7 +332,8 @@ section {
   left: 200%;
   background: #cf301bec;
   background-size: cover;
-  background-position: top center; }
+  background-position: top center;
+  overflow: scroll; }
   @media screen and (max-width: 769px) {
     #p3 {
       left: 190%;
