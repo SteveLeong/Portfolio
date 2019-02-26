@@ -1,87 +1,108 @@
 @import "./variables";
 
-.ant-modal-close {
-  color: white !important;
-}
+.ant-modal {
+  .ant-modal-close {
+    color: white !important;
+  }
 
-.ant-modal-body {
-  background-color: $secondary-color;
-  .container {
-    height: 70vh;
-    .row {
-      height: inherit;
-
-      .imageSpace {
+  .ant-modal-body {
+    background-color: $secondary-color;
+    .container {
+      height: 70vh;
+      .row {
         height: inherit;
-        .carouselContainer {
+
+        .imageSpace {
           height: inherit;
-
-          .slideArrows {
-            position: absolute;
-            color: rgba(255, 255, 255, 0.25);
-            font-size: 1.5em;
-            top: 50%;
-          }
-
-          .rightIcon {
-            right: 0;
-          }
-
-          .leftIcon {
-            z-index: 1;
-          }
-
-          .ant-carousel {
+          .carouselContainer {
             height: inherit;
-            div,
-            img,
-            .slick-slider,
-            .slick-list,
-            .slick-current,
-            .slick-track {
+
+            .slideArrows {
+              position: absolute;
+              color: rgba(255, 255, 255, 0.25);
+              font-size: 1.5em;
+              top: 50%;
+            }
+
+            .rightIcon {
+              right: 0;
+            }
+
+            .leftIcon {
+              z-index: 1;
+            }
+
+            .ant-carousel {
               height: inherit;
-              img {
-                width: 90%;
-                object-fit: scale-down;
-                text-align: center;
-                margin: auto;
-                padding-bottom: 2em;
-                padding-top: 2em;
+              div,
+              img,
+              .slick-slider,
+              .slick-list,
+              .slick-current,
+              .slick-track {
+                height: inherit;
+                img {
+                  width: 90%;
+                  object-fit: scale-down;
+                  text-align: center;
+                  margin: auto;
+                  padding-bottom: 2em;
+                  padding-top: 2em;
+                }
+              }
+            }
+          }
+        }
+
+        .infoSpace {
+          height: inherit;
+          padding: 0.5em;
+          overflow: scroll;
+
+          .projectInfo {
+            height: inherit;
+            p {
+              color: rgb(255, 255, 255);
+              font-size: 0.8em;
+            }
+
+            h3 {
+              font-style: italic;
+              margin: 0;
+              color: rgba(255, 255, 255, 0.35);
+            }
+
+            .btn {
+              width: 90%;
+              margin: 5%;
+              color: #3f6600;
+              font-size: 1.5em;
+              &:hover {
+                border-color: #bae637;
+                color: #7cb305;
               }
             }
           }
         }
       }
+    }
+  }
 
-      .infoSpace {
-        height: inherit;
-        padding: 0.5em;
+  @media screen and (max-width: 768px) {
+    position: fixed !important;
+    width: 90vw !important;
+    left: 5vw;
 
-        .projectInfo {
-          height: inherit;
-          p {
-            color: rgb(255, 255, 255);
-            font-size: 1vw;
-          }
+    .ant-modal-body {
+      padding: 8px;
+    }
 
-          h3 {
-            font-style: italic;
-            margin: 0;
-            color: rgba(255, 255, 255, 0.35);
-          }
+    .imageSpace {
+      height: 30vh !important;
+    }
 
-          .btn {
-            width: 90%;
-            margin: 5%;
-            color: #3f6600;
-            font-size: 2.5vh;
-            &:hover {
-              border-color: #bae637;
-              color: #7cb305;
-            }
-          }
-        }
-      }
+    .infoSpace {
+      height: 40vh !important;
     }
   }
 }

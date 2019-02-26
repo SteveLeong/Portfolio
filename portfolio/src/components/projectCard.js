@@ -108,7 +108,7 @@ class ProjectCard extends Component {
         >
           <div className="container">
             <Row className="row">
-              <Col span={16} className="imageSpace">
+              <Col md={24} lg={16} className="imageSpace">
                 <div className="carouselContainer">
                   <Icon
                     type="left"
@@ -125,7 +125,7 @@ class ProjectCard extends Component {
                   />
                 </div>
               </Col>
-              <Col span={8} className="infoSpace">
+              <Col md={24} lg={8} className="infoSpace">
                 {/* Title, Description, Technologies */}
                 <div className="projectInfo">
                   <h3>Title</h3>
