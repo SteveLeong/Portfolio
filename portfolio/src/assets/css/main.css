@@ -100,11 +100,11 @@
           .ant-modal .ant-modal-body .container .row .infoSpace .projectInfo .btn {
             width: 90%;
             margin: 5%;
-            color: #3f6600;
+            color: #cf301b;
             font-size: 1.5em; }
             .ant-modal .ant-modal-body .container .row .infoSpace .projectInfo .btn:hover {
-              border-color: #bae637;
-              color: #7cb305; }
+              border-color: #ceb992;
+              color: #ceb992; }
 
 @media screen and (max-width: 992px) {
   .ant-modal .ant-modal-body {
@@ -310,6 +310,8 @@ section {
 #p2 {
   left: 100%;
   background: #3d1308; }
+  #p2 .headTitle {
+    color: #ceb992; }
   @media screen and (max-width: 769px) {
     #p2 {
       bottom: 5em; } }
@@ -366,7 +368,7 @@ section {
   height: 5rem;
   margin: auto;
   text-align: center;
-  color: #fffce8; }
+  color: #ffe8e8; }
   @media screen and (max-width: 768px) {
     .headTitle {
       font-size: 2rem;
@@ -382,7 +384,7 @@ section {
     margin: auto;
     margin-top: 3em; }
     .skillsContainer .iconContainer .iconList {
-      color: #fffce8 !important;
+      color: #ceb992 !important;
       font-weight: bold;
       text-align: center;
       padding-bottom: 2em; }
@@ -411,9 +413,11 @@ section {
     text-align: center;
     display: inherit; }
     .skillsContainer .resumeContainer .resume .resumeBtn {
-      color: #cf301bec;
-      background-color: #551a0ba2;
-      border-color: #cf301bec; }
+      font-weight: bold;
+      color: #ceb992;
+      background-color: #3e000c;
+      border: 2px solid #ceb992;
+      box-shadow: 10px 10px 20px #2c0e07fa; }
       .skillsContainer .resumeContainer .resume .resumeBtn:hover {
-        color: #fffce8;
-        border-color: #fffce8; }
+        color: #ffe8e8;
+        border-color: #ffe8e8; }

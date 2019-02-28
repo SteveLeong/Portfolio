@@ -48,6 +48,9 @@ section {
 #p2 {
   left: 100%;
   background: $p2-pColor;
+  .headTitle {
+    color: $p2-textColor;
+  }
   @media screen and (max-width: 769px) {
     bottom: 5em;
   }
@@ -128,7 +131,7 @@ section {
     margin: auto;
     margin-top: 3em;
     .iconList {
-      color: $offWhite-textColor !important;
+      color: $p2-textColor !important;
       font-weight: bold;
       text-align: center;
       padding-bottom: 2em;
@@ -166,10 +169,18 @@ section {
     display: inherit;
     .resume {
       .resumeBtn {
-        color: $primary-color;
-        background-color: #551a0ba2;
-        border-color: $primary-color;
+        // color: $offWhite-textColor;
+        // background-color: #3e000c;
+        // border: 2px solid $offWhite-textColor;
+        // box-shadow: 10px 10px 20px #2c0e07fa;
+        font-weight: bold;
+        color: $p2-textColor;
+        background-color: #3e000c;
+        border: 2px solid $p2-textColor;
+        box-shadow: 10px 10px 20px #2c0e07fa;
         &:hover {
+          //   color: #ceb992;
+          //   border-color: #ceb992;
           color: $offWhite-textColor;
           border-color: $offWhite-textColor;
         }
