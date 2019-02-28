@@ -1,0 +1,73 @@
+{
+  "frontEnd": [
+    {
+      "location": "nodeJSIcon",
+      "name": "Node.js"
+    },
+    {
+      "location": "javascriptIcon",
+      "name": "JavaScript"
+    },
+    {
+      "location": "reactIcon",
+      "name": "React"
+    },
+    {
+      "location": "htmlIcon",
+      "name": "HTML"
+    },
+    {
+      "location": "cssIcon",
+      "name": "CSS"
+    },
+    {
+      "location": "sassIcon",
+      "name": "Sass"
+    }
+  ],
+
+  "design": [
+    {
+      "location": "sketchIcon",
+      "name": "Sketch"
+    },
+    {
+      "location": "figmaIcon",
+      "name": "Figma"
+    },
+    {
+      "location": "adobeXDIcon",
+      "name": "AdobeXD"
+    }
+  ],
+
+  "languages": [
+    {
+      "location": "javaIcon",
+      "name": "Java"
+    },
+    {
+      "location": "pythonIcon",
+      "name": "Python"
+    },
+    {
+      "location": "swiftIcon",
+      "name": "Swift"
+    }
+  ],
+
+  "backEnd": [
+    {
+      "location": "mongodbIcon",
+      "name": "MongoDB"
+    },
+    {
+      "location": "mysqlIcon",
+      "name": "MySQL"
+    },
+    {
+      "location": "phpIcon",
+      "name": "PHP"
+    }
+  ]
+}

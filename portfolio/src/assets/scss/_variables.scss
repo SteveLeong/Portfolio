@@ -1,6 +1,25 @@
+@mixin slideTrans {
+  transition: all 1s cubic-bezier(0.5, -0.005, 0.2, 1) !important;
+  -webkit-transition: all 1s cubic-bezier(0.5, -0.005, 0.2, 1) !important;
+}
+
+@mixin easeOut {
+  transition: all 500ms ease-out;
+  -webkit-transition: all 500ms ease-out;
+}
+
+@mixin noTransition {
+  transition: none;
+  -webkit-transition: none;
+}
+
 $source-sans-pro: "Source Sans Pro", sans-serif;
-$primary-color: #cf301b;
+$primary-color: #cf301bec;
 $secondary-color: #721121;
+$offWhite-textColor: #fffce8;
 $screen-mobile: 480px;
 $screen-small: 600px;
 $screen-large: 1400px;
+
+$p2-pColor: #3d1308;
+$p2-sColor: #211103;

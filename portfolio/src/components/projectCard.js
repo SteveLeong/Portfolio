@@ -2,15 +2,9 @@ import React, { Component } from "react";
 
 import { Card, Modal, Row, Col, Carousel, Button, Icon, Popover } from "antd";
 import "antd/dist/antd.css";
-// import "../assets/css/projectCard.css";
 import "../assets/css/main.css";
 
 const { Meta } = Card;
-
-const modalStyle = {
-  height: "75vh",
-  padding: "0"
-};
 
 class ProjectCard extends Component {
   state = { visible: false, hover: false };

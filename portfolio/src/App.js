@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 
-import { Icon } from "antd";
+import { Icon, List } from "antd";
 import Sidebar from "./components/sidebar";
 import Projects from "./components/projects";
+import Skills from "./components/skillIcons";
 
 import "./assets/css/main.css";
+import { relative } from "path";
 
 class App extends Component {
   state = { numPages: null, pageNumber: 1 };
@@ -69,13 +71,15 @@ class App extends Component {
                   </div>
                 </div>
                 <div className="page" id="p2">
-                  <div className="construction" />
-                  <div className="symbol">
+                  {/* <div className="construction" />
+                  <div id="header">
                     <span className="title">Under Construction!</span>
                     <span className="hint">
                       Sorry, I'm making improvments to this page!
                     </span>
-                  </div>
+                  </div> */}
+                  <div className="headTitle">My Skills</div>
+                  <Skills />
                 </div>
                 <div className="page" id="p3">
                   <Projects />

@@ -11,7 +11,7 @@ class Projects extends Component {
     return props.projects.map(project => {
       // console.log(project);
       return (
-        <Col xs={24} sm={24} md={12} lg={8} key={project.id}>
+        <Col xs={24} sm={24} md={12} lg={12} key={project.id}>
           <ProjectCard projectInfo={project} />
         </Col>
       );

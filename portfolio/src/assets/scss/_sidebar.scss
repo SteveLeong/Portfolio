@@ -1,0 +1,92 @@
+.sidebar {
+  z-index: 1;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+
+  .symbol {
+    font-size: 32px;
+    margin: 3rem 0;
+    display: block;
+    @include easeOut();
+
+    &:hover {
+      opacity: 0.6;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      border-bottom: none;
+    }
+  }
+
+  /* Custom, iPhone Retina */
+  //   @media screen and (min-width: 320px) {
+  //   }
+
+  //   /* Extra Small Devices, Phones */
+  //   @media only screen and (min-width: 480px) {
+  //   }
+
+  // mobile
+  @media screen and (max-width: 768px) {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 8em;
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+    .symbol {
+      display: inline-block;
+      padding: 0 2rem 0 2rem;
+    }
+  }
+
+  /* Small Devices, Tablets */
+  @media screen and (min-width: 769px) {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 40%;
+    width: 10vw;
+  }
+
+  /* Medium Devices, Desktops */
+  //   @media only screen and (min-width: 992px) {
+  //   }
+
+  /* Large Devices, Wide Screens */
+  @media screen and (min-width: 1200px) {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 40%;
+    width: 10vw;
+  }
+}
+
+#t2:target .sidebar .symbol,
+#t3:target .sidebar .symbol,
+#t4:target .sidebar .symbol {
+  transform: scale(0.6);
+  @include easeOut();
+  transition-delay: 0.25s;
+}
+
+#t2:target #dos {
+  transform: scale(1.2) !important;
+}
+
+#t3:target #tres {
+  transform: scale(1.2) !important;
+}
+
+#t4:target #cuatro {
+  transform: scale(1.2) !important;
+}
