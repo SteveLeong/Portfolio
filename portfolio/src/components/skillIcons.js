@@ -10,7 +10,7 @@ class Skills extends Component {
       <div className="skillsContainer">
         <div className="iconContainer">
           <List
-            grid={{ column: 6 }}
+            grid={{ xs: 1, sm: 2, md: 3, lg: 3, xl: 6, xxl: 6 }}
             className="iconList"
             dataSource={iconInfo.frontEnd}
             renderItem={item => (
@@ -26,7 +26,7 @@ class Skills extends Component {
             )}
           />
           <List
-            grid={{ gutter: 48, column: 3 }}
+            grid={{ gutter: 48, xs: 1, sm: 3 }}
             className="iconList"
             dataSource={iconInfo.design}
             renderItem={item => (

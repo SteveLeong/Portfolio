@@ -309,7 +309,8 @@ section {
 
 #p2 {
   left: 100%;
-  background: #3d1308; }
+  background: #3d1308;
+  overflow: scroll; }
   #p2 .headTitle {
     color: #ceb992; }
   @media screen and (max-width: 769px) {
@@ -389,14 +390,13 @@ section {
       text-align: center;
       padding-bottom: 2em; }
       .skillsContainer .iconContainer .iconList .ant-list-item {
-        margin: 10px;
+        width: 128px;
+        margin: auto;
         padding: 10px;
         border-radius: 10px;
         -webkit-box-shadow: 10px 10px 20px #2c0e0794, -2px -2px 10px #2c0e0794;
         -moz-box-shadow: 10px 10px 20px #2c0e0794, -2px -2px 10px #2c0e0794;
         box-shadow: 10px 10px 20px #2c0e0794, -2px -2px 10px #2c0e0794; }
-        .skillsContainer .iconContainer .iconList .ant-list-item.designIcons {
-          margin: 10px 3em 10px 3em; }
       .skillsContainer .iconContainer .iconList img {
         width: 64px;
         height: 64px; }
@@ -409,6 +409,7 @@ section {
           width: 100%; } }
   .skillsContainer .resumeContainer {
     width: 30%;
+    height: 5em;
     margin: auto;
     text-align: center;
     display: inherit; }
@@ -421,3 +422,9 @@ section {
       .skillsContainer .resumeContainer .resume .resumeBtn:hover {
         color: #ffe8e8;
         border-color: #ffe8e8; }
+    @media screen and (max-width: 768px) {
+      .skillsContainer .resumeContainer {
+        width: 90%; } }
+  @media screen and (max-width: 768px) {
+    .skillsContainer {
+      width: 100%; } }
