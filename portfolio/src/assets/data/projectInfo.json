@@ -39,6 +39,16 @@
       "github": "https://github.com/jglem/HCILibrary",
       "images": ["Library1", "Library2", "Library3", "Library4"],
       "demo": ""
+    },
+    {
+      "id": 5,
+      "title": "Import Car DB",
+      "shortdesc": "A database designed and implemented from scratch",
+      "description": "This website was made by me and 2 others for a Database class. I gained experience creating my own Database using MySQL and although the website was not the main point of this project I gained experience in using php to connect my database with my website.",
+      "technologies": "MySQL, PHP, Javascript, CSS, HTML",
+      "github": "https://github.com/SteveLeong/ImportCarsDB",
+      "images": ["ImportCar1", "ImportCar2", "ImportCar3"],
+      "demo": ""
     }
   ],
 
